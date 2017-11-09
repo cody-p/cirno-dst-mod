@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="b5">
+    <folder id="0" name="swap_iceaxe">
+        <file id="0" name="swap_iceaxe/swap_iceaxe-0.png" width="200" height="200" pivot_x="0.416931" pivot_y="0.187848"/>
+        <file id="1" name="swap_iceaxe/swap_iceaxe-1.png" width="200" height="200" pivot_x="0.416931" pivot_y="0.187848"/>
+        <file id="2" name="swap_iceaxe/swap_iceaxe-2.png" width="200" height="208" pivot_x="0.440783" pivot_y="0.149041"/>
+        <file id="3" name="swap_iceaxe/swap_iceaxe-3.png" width="420" height="260" pivot_x="0.50238" pivot_y="0.429329"/>
+        <file id="4" name="swap_iceaxe/swap_iceaxe-4.png" width="200" height="232" pivot_x="0.225957" pivot_y="0.155175"/>
+        <file id="5" name="swap_iceaxe/swap_iceaxe-5.png" width="200" height="232" pivot_x="0.225957" pivot_y="0.155175"/>
+        <file id="6" name="swap_iceaxe/swap_iceaxe-6.png" width="200" height="204" pivot_x="0.229461" pivot_y="0.175983"/>
+        <file id="7" name="swap_iceaxe/swap_iceaxe-7.png" width="200" height="192" pivot_x="0.22518" pivot_y="0.184117"/>
+    </folder>
+    <entity id="0" name="swap_iceaxe">
+        <animation id="0" name="BUILD" length="0">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="swap_iceaxe-0" folder="0" file="0" abs_x="27.355796" abs_y="118.49397" abs_pivot_x="0.416931" abs_pivot_y="0.187848" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="swap_iceaxe-1" folder="0" file="1" abs_x="-23" abs_y="118" abs_pivot_x="0.160152" abs_pivot_y="0.190378" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="swap_iceaxe-2" folder="0" file="2" abs_x="-23" abs_y="124" abs_pivot_x="0.440783" abs_pivot_y="0.149041" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" name="swap_iceaxe-3" folder="0" file="3" abs_x="-150" abs_y="165" abs_pivot_x="0.50238" abs_pivot_y="0.429329" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="3" key="0" z_index="3"/>
+                    <object_ref id="4" name="swap_iceaxe-4" folder="0" file="4" abs_x="-29" abs_y="139" abs_pivot_x="0.225957" abs_pivot_y="0.155175" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="4" key="0" z_index="4"/>
+                    <object_ref id="5" name="swap_iceaxe-5" folder="0" file="5" abs_x="-15" abs_y="145" abs_pivot_x="0.225957" abs_pivot_y="0.155175" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="5" key="0" z_index="5"/>
+                    <object_ref id="6" name="swap_iceaxe-6" folder="0" file="6" abs_x="-23" abs_y="122" abs_pivot_x="0.229461" abs_pivot_y="0.175983" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="6" key="0" z_index="6"/>
+                    <object_ref id="7" name="swap_iceaxe-7" folder="0" file="7" abs_x="-13" abs_y="105" abs_pivot_x="0.22518" abs_pivot_y="0.184117" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="7" key="0" z_index="7"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="swap_iceaxe-0">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="27.355796" y="118.49397" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="swap_iceaxe-1">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-23" y="118" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="swap_iceaxe-2">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-23" y="124" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="swap_iceaxe-3">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="-150" y="165" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="swap_iceaxe-4">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-29" y="139" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="swap_iceaxe-5">
+                <key id="0" spin="0">
+                    <object folder="0" file="5" x="-15" y="145" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="6" name="swap_iceaxe-6">
+                <key id="0" spin="0">
+                    <object folder="0" file="6" x="-23" y="122" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="7" name="swap_iceaxe-7">
+                <key id="0" spin="0">
+                    <object folder="0" file="7" x="-13" y="105" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

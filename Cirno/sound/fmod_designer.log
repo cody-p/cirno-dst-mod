@@ -1,0 +1,101 @@
+Warning: QPainter::begin: Paint device returned engine == 0, type: 1
+Warning: QPainter::setPen: Painter not active
+Warning: QPainter::setBrush: Painter not active
+Warning: QPainter::setRenderHint: Painter must be active to set rendering hints
+Warning: QPainter::setPen: Painter not active
+Debug: "06:11:30 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:31 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:31 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:31 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:31 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:31 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:32 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:32 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:32 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:32 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:32 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:32 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:33 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:33 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:33 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:33 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:33 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:34 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:34 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:34 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:34 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:34 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:34 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:34 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:34 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:34 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:34 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:34 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:34 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:39 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:39 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:40 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:40 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:40 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:40 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:40 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:40 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:40 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:40 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:40 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:40 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:40 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:41 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:41 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:42 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:11:50 ..\..\src\simpleeventcontroller.cpp:1273 IK: Set Playlist Pitch Randomization" 
+Debug: "06:12:12 ..\..\src\propertyeditor.cpp:3444 EQ: Set Fade Out Time" 
+Debug: "06:12:13 ..\..\src\propertyeditor.cpp:3444 EQ: Set Fade Out Time" 
+Debug: "06:12:19 ..\..\src\propertyeditor.cpp:3444 EQ: Set Fade Out Time" 
+Debug: "06:12:20 ..\..\src\propertyeditor.cpp:3444 EQ: Set Fade Out Time" 
+Debug: "06:12:24 ..\..\src\propertyeditor.cpp:3444 EQ: Set Fade Out Time" 
+Debug: "06:12:24 ..\..\src\propertyeditor.cpp:3444 EQ: Set Fade Out Time" 
+Debug: 
+Building project 'cirno'...
+Debug: Building project C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\mods\Cirno\sound\sound\cirno.fev...
+Debug: Unique sound defs 4/6
+Debug: Retrieving sound file info...
+Debug: Retrieving reverb info...
+Debug: FEV file written ok
+Debug: Unique Envelope Points: 0 of 0
+Debug: Unique Strings: 283 characters of 283
+Debug: Caching sound file details for ''...
+Debug: ..\..\cirno\sound\10_cirnodeath.wav
+Debug: ..\..\cirno\sound\11_cirnoemote.wav
+Debug: ..\..\cirno\sound\12_cirnoyawn.wav
+Debug: ..\..\cirno\sound\13_cirnopose.wav
+Debug: ..\..\cirno\sound\1_cirnospeech.wav
+Debug: ..\..\cirno\sound\2_cirnospeech.wav
+Debug: ..\..\cirno\sound\3_cirnospeech.wav
+Debug: ..\..\cirno\sound\4_cirnospeech.wav
+Debug: ..\..\cirno\sound\5_cirnospeech.wav
+Debug: ..\..\cirno\sound\6_cirnospeech.wav
+Debug: ..\..\cirno\sound\7_cirnospeech.wav
+Debug: ..\..\cirno\sound\8_cirnohurt.wav
+Debug: ..\..\cirno\sound\9_cirnohurt.wav
+Debug: Building 'cirno.fsb'
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\mods\workshop-881681992\sound\..\..\cirno\sound\10_cirnodeath.wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\mods\workshop-881681992\sound\..\..\cirno\sound\11_cirnoemote.wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\mods\workshop-881681992\sound\..\..\cirno\sound\12_cirnoyawn.wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\mods\workshop-881681992\sound\..\..\cirno\sound\1_cirnospeech.wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\mods\workshop-881681992\sound\..\..\cirno\sound\2_cirnospeech.wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\mods\workshop-881681992\sound\..\..\cirno\sound\3_cirnospeech.wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\mods\workshop-881681992\sound\..\..\cirno\sound\4_cirnospeech.wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\mods\workshop-881681992\sound\..\..\cirno\sound\5_cirnospeech.wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\mods\workshop-881681992\sound\..\..\cirno\sound\6_cirnospeech.wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\mods\workshop-881681992\sound\..\..\cirno\sound\7_cirnospeech.wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\mods\workshop-881681992\sound\..\..\cirno\sound\8_cirnohurt.wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\mods\workshop-881681992\sound\..\..\cirno\sound\9_cirnohurt.wav
+Debug: Encoded C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\mods\workshop-881681992\sound\..\..\cirno\sound\13_cirnopose.wav
+Debug: Writing FSB...
+Debug: Finished building FSB
+Debug: 
+Debug: 
+Summary of build:
+SUCCESS: C:/Program Files (x86)/Steam/steamapps/common/Don't Starve Together/mods/Cirno/sound/sound/cirno.fev
+SUCCESS: cirno.fsb
