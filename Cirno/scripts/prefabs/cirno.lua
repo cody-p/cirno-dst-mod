@@ -228,12 +228,12 @@ local master_postinit =
     inst:ListenForEvent("fairyrespawn", FairyRespawn)
 
     --temp
-    inst.components.temperature:SetModifier("cirno", 40)
-    inst.components.temperature.inherentinsulation = TUNING.INSULATION_LARGE
+    --inst.components.temperature:SetModifier("cirno", 40)
+    --inst.components.temperature.inherentinsulation = TUNING.INSULATION_LARGE
 
     -- heater
-    inst._heater = SpawnPrefab("heatsauce")
-    inst._heater.entity:SetParent(inst.entity)
+    --inst._heater = SpawnPrefab("heatsauce")
+    --inst._heater.entity:SetParent(inst.entity)
 
     local old_calcdamage = inst.components.combat.CalcDamage
     inst.components.combat.CalcDamage = function(self, target, weapon, multiplier)
@@ -314,7 +314,7 @@ local function icicle_swapper()
     return giver_common("icicle", 1, false)
 end
 
-return MakePlayerCharacter("cirno", prefabs, assets, common_postinit, master_postinit, start_inv), Prefab(
-    "heatsauce",
-    heat_fn
-), Prefab("ice_giver", ice_giver), Prefab("icicle_giver", icicle_giver), Prefab("icicle_swapper", icicle_swapper)
+return 
+	MakePlayerCharacter("cirno", prefabs, assets, common_postinit, master_postinit, start_inv), 
+	--Prefab("heatsauce", heat_fn),
+	Prefab("ice_giver", ice_giver), Prefab("icicle_giver", icicle_giver), Prefab("icicle_swapper", icicle_swapper)

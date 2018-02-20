@@ -43,10 +43,6 @@ Assets = {
 	Asset("ATLAS", "images/inventoryimages/icespear.xml"),
     Asset("IMAGE", "images/inventoryimages/icespear.tex"),	
 	
-	-- axe icon 
-	Asset("ATLAS", "images/inventoryimages/iceaxe.xml"),
-    Asset("IMAGE", "images/inventoryimages/iceaxe.tex"),
-	
 	-- icicle icon 
 	Asset("ATLAS", "images/inventoryimages/icicle.xml"),
     Asset("IMAGE", "images/inventoryimages/icicle.tex"),	
@@ -81,18 +77,6 @@ STRINGS.NAMES.ICESPEAR = "Ice Spear"
 STRINGS.CHARACTERS.GENERIC.DESCRIBE.ICESPEAR = "It makes my hands numb when I hold it."
 STRINGS.RECIPE_DESC.ICESPEAR = "A frigid weapon."
 
-STRINGS.NAMES.ICEAXE = "Ice Axe"
-STRINGS.CHARACTERS.GENERIC.DESCRIBE.ICEAXE = "I'll need the wood I get from using this just to warm myself up again."
-STRINGS.RECIPE_DESC.ICEAXE = "Endothermic tree killing."
-
-STRINGS.NAMES.ICEPICKAXE = "Ice Pickaxe"
-STRINGS.CHARACTERS.GENERIC.DESCRIBE.ICEPICKAXE = "This seems impractical."
-STRINGS.RECIPE_DESC.ICEPICKAXE = "Smash mineral rocks with water rocks."
-
-STRINGS.NAMES.ICEHAMMER = "Ice Hammer"
-STRINGS.CHARACTERS.GENERIC.DESCRIBE.ICEHAMMER = "As cold as it is heavy."
-STRINGS.RECIPE_DESC.ICEHAMMER = "Smash EVERYTHING with water rocks."
-
 STRINGS.NAMES.ICICLE = "Icicle"
 STRINGS.CHARACTERS.GENERIC.DESCRIBE.ICICLE = "It looks pretty sharp"
 STRINGS.RECIPE_DESC.ICICLE = "Throw ice spikes at your enemies."
@@ -116,9 +100,6 @@ TUNING.CIRNO.CIRNO_RESPAWN_COST = 50
 TUNING.CIRNO.CIRNO_SCALE = 0.66
 
 TUNING.CIRNO.ICE_SPEAR_COST = 10
-TUNING.CIRNO.ICE_AXE_COST = 8
-TUNING.CIRNO.ICE_PICKAXE_COST = 8
-TUNING.CIRNO.ICE_HAMMER_COST = 9
 TUNING.CIRNO.ICICLE_SWAP_COST = 2
 
 TUNING.CIRNO.ICE_CRAFT_AMOUNT = 2
@@ -128,21 +109,6 @@ TUNING.CIRNO.CIRNO_COLD_LEVEL = -10
 -- wep constants
 TUNING.CIRNO.ICE_SPEAR_FREEZE_AMOUNT = 0.6
 TUNING.CIRNO.ICE_SPEAR_CONSUMPTION = 0.01
-
-TUNING.CIRNO.ICE_AXE_FREEZE_AMOUNT = 0.4
-TUNING.CIRNO.ICE_AXE_CONSUMPTION = 0.01
-TUNING.CIRNO.ICE_AXE_TOOL_CONSUMPTION = 1 / TUNING.AXE_USES
-
-TUNING.CIRNO.ICE_PICKAXE_FREEZE_AMOUNT = 0.4
-TUNING.CIRNO.ICE_PICKAXE_CONSUMPTION = 0.01
-TUNING.CIRNO.ICE_PICKAXE_TOOL_CONSUMPTION = 1 / TUNING.PICKAXE_USES
-
-TUNING.CIRNO.ICE_HAMMER_FREEZE_AMOUNT = 0.4
-TUNING.CIRNO.ICE_HAMMER_CONSUMPTION = 0.01
-TUNING.CIRNO.ICE_HAMMER_TOOL_CONSUMPTION = 1 / TUNING.HAMMER_USES
-
-TUNING.CIRNO.ICE_HAMMER_FREEZE_AMOUNT = 1
-TUNING.CIRNO.ICE_HAMMER_CONSUMPTION = 1
 
 TUNING.CIRNO.ICE_THROW_FREEZE_AMOUNT = 1
 TUNING.CIRNO.ICE_THROW_DAMAGE = 20
@@ -333,28 +299,6 @@ CUSTOM_RECIPETABS.ICECRAFT =
   CUSTOM_RECIPETABS.ICECRAFT,  GLOBAL.TECH.SCIENCE_ONE,
   nil, nil, nil, nil, "icefairy", "images/inventoryimages/icespear.xml", "icespear.tex" )
   
-  -- axe
-  AddRecipe("iceaxe",
-  {
-    Ingredient("ice", TUNING.CIRNO.ICE_AXE_COST)
-  },
-  CUSTOM_RECIPETABS.ICECRAFT,  GLOBAL.TECH.SCIENCE_ONE,
-  nil, nil, nil, nil, "icefairy", "images/inventoryimages/iceaxe.xml", "iceaxe.tex" )
-  
-    AddRecipe("icepickaxe",
-  {
-    Ingredient("ice", TUNING.CIRNO.ICE_PICKAXE_COST)
-  },
-  CUSTOM_RECIPETABS.ICECRAFT,  GLOBAL.TECH.SCIENCE_ONE,
-  nil, nil, nil, nil, "icefairy", "images/inventoryimages/iceaxe.xml", "iceaxe.tex" )
-  
-   AddRecipe("icehammer",
-  {
-    Ingredient("ice", TUNING.CIRNO.ICE_HAMMER_COST)
-  },
-  CUSTOM_RECIPETABS.ICECRAFT,  GLOBAL.TECH.SCIENCE_ONE,
-  nil, nil, nil, nil, "icefairy", "images/inventoryimages/iceaxe.xml", "iceaxe.tex" )
-  
   -- SG STUFF
   local function DoMountSound(inst, mount, sound, ispredicted)
     if mount ~= nil and mount.sounds ~= nil then
@@ -503,27 +447,27 @@ end
         inst.sg:GoToState("fairyrespawn")
 	end))
 	
-	-- make heatrock not cool cirno. She doesn't need it.
-AddPrefabPostInit("heatrock", function(inst)
-	if GLOBAL.TheWorld.ismastersim then
-		local oldfunc = inst.components.heater.heatfn
+	-- This was used before cooling aura was removed
+-- AddPrefabPostInit("heatrock", function(inst)
+	-- if GLOBAL.TheWorld.ismastersim then
+		-- local oldfunc = inst.components.heater.heatfn
 		
-		inst.components.heater.heatfn = function(instance, observer)
-			local val = oldfunc(instance, observer)
-			if instance.components.heater:IsEndothermic() and observer ~= nil and observer:HasTag("icefairy") then
-				return nil
-			end
-			return val
-		end
-		inst.components.heater.carriedheatfn = function(instance)
-			local val = oldfunc(instance, observer)
-			if instance.components.heater:IsEndothermic() and instance.components.inventoryitem.owner ~= nil and instance.components.inventoryitem.owner:HasTag("icefairy") then
-				return nil
-			end
-			return val
-		end
-	end
-end)
+		-- inst.components.heater.heatfn = function(instance, observer)
+			-- local val = oldfunc(instance, observer)
+			-- if instance.components.heater:IsEndothermic() and observer ~= nil and observer:HasTag("icefairy") then
+				-- return nil
+			-- end
+			-- return val
+		-- end
+		-- inst.components.heater.carriedheatfn = function(instance)
+			-- local val = oldfunc(instance, observer)
+			-- if instance.components.heater:IsEndothermic() and instance.components.inventoryitem.owner ~= nil and instance.components.inventoryitem.owner:HasTag("icefairy") then
+				-- return nil
+			-- end
+			-- return val
+		-- end
+	-- end
+-- end)
 
 AddPrefabPostInit("ice", function(inst)
 	if GLOBAL.TheWorld.ismastersim then

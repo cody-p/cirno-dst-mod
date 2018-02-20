@@ -1,8 +1,8 @@
 -- This information tells other players more about the mod
-name = "Cirno (DEV)"
-description = "The Ice Fairy"
-author = "code4240"
-version = "0.01" -- This is the version of the template. Change it to your own number.
+name = "Cirno"
+description = "The Ice Fairy from Touhou! She can craft ice and ice weapons, and respawns on death for a 50 sanity penalty."
+author = "VoidLurker"
+version = "1"
 
 -- This is the URL name of the mod's thread on the forum; the part after the ? and before the first & in the url
 forumthread = ""
